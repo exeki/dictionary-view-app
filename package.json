@@ -1,0 +1,29 @@
+{
+  "name": "dictionary-view-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iframe-resizer/child": "^5.5.8",
+    "@types/lodash": "^4.17.23",
+    "ant-design-vue": "^4.2.6",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.23",
+    "nsd_js_api_proxy": "^4.18.5-1.4.5",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "nsd_app_uploader": "^1.1.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2",
+    "vue-tsc": "^3.1.3"
+  }
+}
