@@ -12,7 +12,7 @@ const jsApi: JsApiProxy = JsApiProxy.getInstance(devConfig)
 jsApi.setMethodLogging(false)
 const devMode : boolean = jsApi.isDevMode()
 const connector = new ConnectorService()
-const baseUrl = jsApi.urls.base()
+const baseUrl = jsApi.getAppBaseUrl()
 
 createApp(App).use(Antd)
     .provide("jsApi", jsApi)

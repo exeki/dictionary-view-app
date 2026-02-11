@@ -16,7 +16,7 @@ defineProps({
 </script>
 
 <template>
-  <a v-if="title && uuid" :href="baseUrl + '/admin/#ci:' + uuid" target="_blank">{{ title }}</a>
+  <a v-if="title && uuid" :href="baseUrl + 'admin/#ci:' + uuid" target="_blank">{{ title }}</a>
 </template>
 
 <style scoped>

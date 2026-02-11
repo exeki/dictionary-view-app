@@ -59,7 +59,7 @@ const search = (value: string, option: SelectOption) => option.label.toLowerCase
       <a-space v-if="catalogType" class="line" direction="horizontal">
         <div class="label">Код справочника:</div>
         <div class="value copy">
-          <a class="simple-value" :href="baseUrl + '/admin/#catalog:' +  catalogType.value" target="_blank">
+          <a class="simple-value" :href="baseUrl + 'admin/#catalog:' +  catalogType.value" target="_blank">
             {{ catalogType.value }}
           </a>
           <CopyButton :text="catalogType.value"/>
